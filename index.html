@@ -5,18 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ULT | Universitas Trunojoyo Madura</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/8eec8f5ed5.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header class="py-3 px-20 w-screen bg-slate-100/80 rounded-b-2xl backdrop-blur-sm absolute">
+    <header class="py-3 px-20 w-screen bg-slate-100/80 rounded-b-2xl backdrop-blur-sm absolute ">
         <nav class="flex items-center">
             <a href="#"><img src="./assets/img/ULT_LOGO-removebg-preview.png" class="h-14" alt="Logo Unit Layanan Terpadu UTM"></a>
-            <ul class="ms-auto flex gap-x-4">
-                <li><a href="#" class="border-transparent hover:border-b-4 hover:pb-1 hover:border-b-slate-700 transition duration-700">Home</a></li>
-                <li><a href="#" class="border-transparent hover:border-b-4 hover:pb-1 hover:border-b-slate-700 transition duration-700">Tentang ULT</a></li>
-                <li><a href="#" class="border-transparent hover:border-b-4 hover:pb-1 hover:border-b-slate-700 transition duration-700">Aspirasi &amp; Pengaduan</a></li>
-                <li><a href="#" class="border-transparent hover:border-b-4 hover:pb-1 hover:border-b-slate-700 transition duration-700">Kontak</a></li>
-            </ul>
-            <a href="#" class="ms-5 bg-amber-200 py-2 px-3 rounded-lg font-semibold shadow-lg hover:bg-amber-300 hover:scale-105 transition">Sign-In</a>
+            <div class="ms-auto hidden lg:flex items-center">
+                <ul class="flex gap-x-4">
+                    <li><a href="#" class="border-transparent hover:border-b-4 hover:pb-1 hover:border-b-slate-700 transition duration-700">Home</a></li>
+                    <li><a href="#" class="border-transparent hover:border-b-4 hover:pb-1 hover:border-b-slate-700 transition duration-700">Tentang ULT</a></li>
+                    <li><a href="#" class="border-transparent hover:border-b-4 hover:pb-1 hover:border-b-slate-700 transition duration-700">Aspirasi &amp; Pengaduan</a></li>
+                    <li><a href="#" class="border-transparent hover:border-b-4 hover:pb-1 hover:border-b-slate-700 transition duration-700">Kontak</a></li>
+                </ul>
+                <a href="#" class="ms-5 bg-amber-200 py-2 px-3 rounded-lg font-semibold shadow-lg hover:bg-amber-300 hover:scale-105 transition">Sign-In</a>
+            </div>
+            <a href="#" class="ms-auto p-3 w-10 h-10 bg-slate-300 rounded-full shadow-lg relative lg:hidden"><i class="fa-solid fa-bars fa-sm absolute top-1/2 left-1/2 -translate-x-1/2"></i></a>
         </nav>
     </header>
     <section class="h-screen w-screen bg-cover bg-center bg-no-repeat" style="background-image: url(assets/img/hero-image-2.jpg)">
