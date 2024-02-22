@@ -7,7 +7,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://kit.fontawesome.com/8eec8f5ed5.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body class="max-w-full overflow-x-hidden">
     <header class="py-3 px-6 w-screen bg-slate-100/80 rounded-b-2xl backdrop-blur-sm absolute z-10 lg:px-20">
         <nav class="flex items-center">
             <a href="#"><img src="./assets/img/ULT_LOGO-removebg-preview.png" class="h-14" alt="Logo Unit Layanan Terpadu UTM"></a>
@@ -39,7 +39,7 @@
         </div>
     </section>
     <section class="h-screen w-screen py-6 px-6 lg:px-20 bg-slate-200 flex flex-col lg:flex-row items-center gap-5" id="tentang-ult-section">
-        <div class="w-full lg:w-1/2 h-[636px] flex gap-5" id="galery">
+        <div class="w-full lg:w-1/2 h-[636px] flex gap-5 order-last lg:order-first" id="galery">
             <div class="w-1/2 flex flex-col gap-5">
                 <div class="h-1/2 w-full bg-cover bg-center bg-no-repeat rounded-xl shadow-xl" style="background-image: url(assets/img/hero-image-1.jpg)"></div>
                 <div class="h-1/2 w-full bg-cover bg-center bg-no-repeat rounded-xl shadow-xl" style="background-image: url(assets/img/hero-image-1.jpg)"></div>
@@ -50,6 +50,34 @@
             <h2 class="text-2xl text-center lg:text-left font-bold">Tentang ULT</h2>
             <p class="hidden text-justify mt-4 lg:block">Unit Layanan Terpadu (ULT) Universitas Trunojoyo Madura memberikan manfaat yang signifikan dalam mempermudah kepengurusan layanan mahasiswa dan masyarakat dengan mengintegrasikan layanan publik di Kantor Manajemen Universitas Trunojoyo Madura. Melalui ULT, proses pemantauan dokumen yang diajukan pemohon menjadi lebih efisien, sementara perolehan informasi publik dan proses layanan kepada mahasiswa/masyarakat menjadi lebih cepat dan akurat. ULT hadir untuk memberikan solusi terhadap kebutuhan informasi masyarakat dengan menyediakan layanan baik secara langsung di kantor ULT maupun daring melalui akses internet, sesuai dengan ketentuan yang berlaku dan komitmen untuk meningkatkan efisiensi, efektivitas, serta integritas dalam pelayanan publik.</p>
             <p class="text-justify mt-4 lg:hidden">Unit Layanan Terpadu (ULT) Universitas Trunojoyo Madura memberikan manfaat yang signifikan dalam mempermudah kepengurusan layanan mahasiswa dan masyarakat dengan mengintegrasikan layanan publik di Kantor Manajemen Universitas Trunojoyo Madura. Melalui ULT, proses pemantauan dokumen yang diajukan pemohon menjadi lebih efisien, sementara perolehan informasi publik dan proses layanan kepada mahasiswa/masyarakat menjadi lebih cepat dan... <small class="text-sky-500">Read more</small></p>
+        </div>
+    </section>
+    <section class="h-screen w-screen py-6 px-6 lg:px-20 bg-slate-100 flex flex-col justify-center items-center gap-5" id="FAQs">
+        <h2 class="text-2xl text-center font-bold">Pertanyaan yang sering diajukan (FAQs)</h2>
+        <div class="accordion-content w-full">
+            <div class="accordion mb-2 shadow-lg">
+                <div class="accordion-header bg-slate-400 px-5 py-4 flex justify-between items-center rounded-t-lg">
+                    <h3 class="accordion-title text-lg font-semibold">Question 1?</h3>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="accordion-item bg-slate-300 px-5 py-4 flex justify-between items-center rounded-b-lg">
+                    <p class="accordion-answer text-justify hidden mt-4 lg:block">Lorem ipsum dolor sit amet consectetur adipisicing elit. At cum vero alias nesciunt quo. Voluptas, non deserunt. Recusandae dolore cumque quidem qui, provident, corporis itaque maxime eligendi nihil quisquam odio eveniet eaque alias aliquid fuga, reprehenderit accusamus eos perferendis est porro? Accusantium praesentium officia quisquam hic minima voluptates, nihil necessitatibus mollitia, facilis laudantium cumque ab in quis repellendus delectus odit. Beatae velit sequi vitae, minima reprehenderit illum autem facere dicta, mollitia ad deserunt porro ipsum in inventore optio cumque sint molestias enim quis? Tempora quia, ex facilis nesciunt quidem doloremque reprehenderit nemo culpa, excepturi, nam totam exercitationem voluptatum amet cupiditate?</p>
+                    <p class="text-justify mt-4 lg:hidden">Unit Layanan Terpadu (ULT) Universitas Trunojoyo Madura memberikan manfaat yang signifikan dalam mempermudah kepengurusan layanan mahasiswa dan masyarakat dengan mengintegrasikan layanan publik di Kantor Manajemen Universitas Trunojoyo Madura. Melalui ULT, proses pemantauan dokumen yang diajukan pemohon menjadi lebih efisien, sementara perolehan informasi publik dan proses layanan kepada mahasiswa/masyarakat menjadi lebih cepat dan... <small class="text-sky-500">Read more</small></p>
+                </div>
+                
+            </div>
+            <div class="accordion shadow-lg mb-2">
+                <div class="accordion-header bg-slate-400 px-5 py-4 flex justify-between items-center rounded-lg">
+                    <h3 class="accordion-title text-lg font-semibold">Question 2?</h3>
+                    <i class="fa-solid fa-minus"></i>
+                </div>
+            </div>
+            <div class="accordion shadow-lg mb-2">
+                <div class="accordion-header bg-slate-400 px-5 py-4 flex justify-between items-center rounded-lg">
+                    <h3 class="accordion-title text-lg font-semibold">Question 3?</h3>
+                    <i class="fa-solid fa-minus"></i>
+                </div>
+            </div>
         </div>
     </section>
 </body>
